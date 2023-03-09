@@ -219,9 +219,9 @@ d.add(\zp ->
 });
 );
 d.add(\zs ->
-PathName(thisProcess.nowExecutingPath.dirname++"/samples/zsnarez/").entries.collect({
-arg sf;
-Buffer.read(s, sf.fullPath);
+	PathName(thisProcess.nowExecutingPath.dirname++"/samples/zsnarez/").entries.collect({
+	arg sf;
+	Buffer.read(s, sf.fullPath);
 });
 );
 d.add(\n ->
